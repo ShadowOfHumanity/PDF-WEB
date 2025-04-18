@@ -1,0 +1,118 @@
+/* Responsive Breakpoints */
+:root {
+  --mobile-breakpoint: 480px;
+  --tablet-breakpoint: 768px;
+  --laptop-breakpoint: 1024px;
+  --desktop-breakpoint: 1200px;
+}
+
+/* Mobile First Approach */
+/* Base styles are for mobile */
+
+/* Tablet and up */
+@media screen and (min-width: 768px) {
+  .hide-on-mobile {
+    display: block !important;
+  }
+  
+  .mobile-only {
+    display: none !important;
+  }
+}
+
+/* Laptop and up */
+@media screen and (min-width: 1024px) {
+  .hide-on-tablet {
+    display: block !important;
+  }
+  
+  .tablet-only {
+    display: none !important;
+  }
+}
+
+/* Desktop and up */
+@media screen and (min-width: 1200px) {
+  .hide-on-laptop {
+    display: block !important;
+  }
+  
+  .laptop-only {
+    display: none !important;
+  }
+}
+
+/* Responsive Grid System */
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-grid {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .responsive-grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+/* Responsive Flex Containers */
+.responsive-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-flex {
+    flex-direction: row;
+  }
+}
+
+/* Responsive Text */
+html {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Responsive Container */
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}

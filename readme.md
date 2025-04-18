@@ -11,3 +11,6 @@
     - TB/GB processed
     - PDFS Converted
     
+
+
+# EXTRA INFO --> AI IS USED FOR SIZING ON MOBILE, TABLET, LAPTOP, ECT.
