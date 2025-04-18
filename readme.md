@@ -2,3 +2,5 @@
 
 # Backend: Installed express, cors
 # Frontend: Installed React, TailwindCss/vite, react router
+
+# Finishing basic frontend and components
