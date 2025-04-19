@@ -17,7 +17,7 @@ const Header = () => {
         <MinimalisticLinks to="/Help" text="Help" />
         <MinimalisticLinks to="/Subscription" text="Subscription" />
         </div>
-        <BlackButton text="Upload" onClick={() => {}} />
+        <BlackButton text="Sign in" onClick={() => {}} />
       </div>
     </header>
   )

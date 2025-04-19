@@ -17,4 +17,4 @@
 
 # There are buttons that do nothing yet in:
     -- Home Page, almost all buttons.
-    -- Landing Page, almost all buttons, links, and even pictures.
+    -- Landing Page, almost all buttons, links, and even pictures. FEAUTURED TOOLS, REPLACE THEIR HREF.
