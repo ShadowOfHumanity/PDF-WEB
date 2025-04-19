@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-8"> 
         <MinimalisticLinks to="/Home" text="Home" />
-        <MinimalisticLinks to="/Tools-Overview" text="Tools overview" />
+        <MinimalisticLinks to="/tools-overview" text="Tools overview" />
         <MinimalisticLinks to="/Help" text="Help" />
         <MinimalisticLinks to="/Subscription" text="Subscription" />
         </div>

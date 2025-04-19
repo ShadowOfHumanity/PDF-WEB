@@ -25,8 +25,8 @@ const landingPage = () => {
                     </p>
                     
                     <div className="flex flex-wrap justify-center md:justify-start gap-2 sm:gap-4">
-                        <BlackButton text="Explore" onClick={() => {}} className="mt-2 sm:mt-4 px-4 sm:px-6 md:px-10 text-[13px] sm:text-[15px]" />
-                        <BlackButton text="Try Now" onClick={() => {}} className="mt-2 sm:mt-4 px-4 sm:px-6 md:px-10 text-[13px] sm:text-[15px]" />
+                        <BlackButton text="Explore" to="/Home" className="mt-2 sm:mt-4 px-4 sm:px-6 md:px-10 text-[13px] sm:text-[15px]" />
+                        <BlackButton text="Try Now" to="tools-overview" className="mt-2 sm:mt-4 px-4 sm:px-6 md:px-10 text-[13px] sm:text-[15px]" />
                     </div>
                 </div>
                 <FaFilePdf className="text-[100px] sm:text-[150px] md:text-[200px] lg:text-[250px] text-black-600 mb-3 sm:mb-5 md:mb-15 mx-auto md:mx-50" />
