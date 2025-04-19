@@ -13,4 +13,8 @@
     
 
 
-# EXTRA INFO --> AI IS USED FOR SIZING ON MOBILE, TABLET, LAPTOP, ECT.
+# EXTRA INFO --> AI GH-CP IS USED FOR SIZING ON MOBILE, TABLET, LAPTOP, ECT.
+
+# There are buttons that do nothing yet in:
+    -- Home Page, almost all buttons.
+    -- Landing Page, almost all buttons, links, and even pictures.
