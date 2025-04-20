@@ -3,11 +3,12 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import LandingPage from "./pages/LandingPage";
 import HomePage from "./pages/HomePage";
+import SubscriptionPage from "./pages/SubscriptionPage";
 
 // Placeholder page components
 const ToolsOverviewPage = () => <div className="container mx-auto p-6">Tools Overview Page</div>;
 const HelpPage = () => <div className="container mx-auto p-6">Help Page</div>;
-const SubscriptionPage = () => <div className="container mx-auto p-6">Subscription Page</div>;
+
 const AiPdfPage = () => <div className="container mx-auto p-6">AI PDF Page</div>;
 const OcrPdfPage = () => <div className="container mx-auto p-6">OCR PDF Page</div>;
 const SecurePdfPage = () => <div className="container mx-auto p-6">Secure PDF Page</div>;
