@@ -1,11 +1,12 @@
 import BigCard from "../components/bigCard"
-import { FaFilePdf } from "react-icons/fa6";
+import { FaFilePdf, FaFileWord } from "react-icons/fa6";
 import { IoMdCloudDownload } from "react-icons/io";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+import { FaArrowAltCircleRight, FaRegFilePdf } from "react-icons/fa";
 import BlackButton from "../components/blackButton"
 import SmallCard from "../components/smallCard";
 import LogoComponent from "../components/LogoComponent";
 import { Link } from "react-router-dom";
+import ShuffleUp from "../components/shufflingIcon";
 
 const landingPage = () => {
   return (
@@ -29,7 +30,13 @@ const landingPage = () => {
                         <BlackButton text="Try Now" to="tools-overview" className="mt-2 sm:mt-4 px-4 sm:px-6 md:px-10 text-[13px] sm:text-[15px]" />
                     </div>
                 </div>
-                <FaFilePdf className="text-[100px] sm:text-[150px] md:text-[200px] lg:text-[250px] text-black-600 mb-3 sm:mb-5 md:mb-15 mx-auto md:mx-50" />
+                {/* <FaFilePdf className="text-[100px] sm:text-[150px] md:text-[200px] lg:text-[250px] text-black-600 mb-3 sm:mb-5 md:mb-15 mx-auto md:mx-50" /> */}
+                <ShuffleUp elements={[<FaFilePdf />, <FaFileWord />, <FaRegFilePdf />]} 
+                    className=" text-[100px] sm:text-[150px] md:text-[200px] lg:text-[250px] text-black-600 mb-3 sm:mb-5 md:mb-15 mx-auto md:mx-50 "
+                    shuffleSpeed={0.5}
+                    pause={2}
+                    distance={300}
+                />
             </div>
         </BigCard>
 
@@ -78,7 +85,7 @@ const landingPage = () => {
                     <p className="text-xs sm:text-s">Get started for free</p>
                     <h3 className="text-3xl sm:text-5xl font-medium text-black leading-tight">{"Preview"}</h3>  
                 </div>
-                <Link to={"/Subscription"}><FaArrowAltCircleRight className="text-2xl sm:text-3xl mb-6 sm:mb-14 text-black-600" /></Link>
+                <Link to={"/Subscription"}><FaArrowAltCircleRight className="text-2xl sm:text-3xl mb-6 sm:mb-14 text-black-600 hover:text-purple-700 transition-all duration-300 group-hover:scale-125 group-hover:transform" /></Link>
             </div>
             <br/>
         </SmallCard>

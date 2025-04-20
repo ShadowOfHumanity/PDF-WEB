@@ -1,4 +1,4 @@
-/* Responsive Breakpoints */
+
 :root {
   --mobile-breakpoint: 480px;
   --tablet-breakpoint: 768px;
@@ -6,8 +6,7 @@
   --desktop-breakpoint: 1200px;
 }
 
-/* Mobile First Approach */
-/* Base styles are for mobile */
+
 
 /* Tablet and up */
 @media screen and (min-width: 768px) {

@@ -1,6 +1,6 @@
-/* ...existing code... */
 
-/* Use relative units for better responsiveness */
+
+
 body {
   font-size: 1rem;
   line-height: 1.5;
@@ -11,7 +11,7 @@ img {
   height: auto;
 }
 
-/* Ensure buttons are touchable on mobile */
+/* buttons r touchable on mobile */
 button, 
 .button, 
 input[type="button"], 
@@ -20,4 +20,3 @@ input[type="submit"] {
   min-width: 44px;
 }
 
-/* ...existing code... */

@@ -11,6 +11,9 @@
     - TB/GB processed
     - PDFS Converted
     
+# EXTRA TODO
+    - add animations to loading page, make website more interactive.
+    - add some loading when going to other pages.
 
 
 # EXTRA INFO --> AI GH-CP IS USED FOR SIZING ON MOBILE, TABLET, LAPTOP, ECT.
