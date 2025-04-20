@@ -98,176 +98,176 @@ const HomePage = () => {
             </Link>
 
             {/* PDF OCR Button */}
-            <Link to="/ocr-pdf" className="no-underline text-inherit "> 
-                <div className="flex flex-col items-center">
+            <Link to="/ocr-pdf" className="no-underline text-inherit ">
+              <div className="flex flex-col items-center">
                 <button
-                    className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-md hover:scale-105 group"
-                    style={{ backgroundColor: "#13a3b5", borderColor: "#13a3b5" }}
+                  className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-md hover:scale-105 group"
+                  style={{ backgroundColor: "#13a3b5", borderColor: "#13a3b5" }}
                 >
-                    <span className="text-white transition-all duration-300 group-hover:text-blue-100">
+                  <span className="text-white transition-all duration-300 group-hover:text-blue-100">
                     <FaSearch
-                        size={26}
-                        className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:rotate-[-12deg]"
+                      size={26}
+                      className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:rotate-[-12deg]"
                     />
-                    </span>
+                  </span>
                 </button>
                 <span className="mt-2 text-xs sm:text-sm text-gray-700">
-                    PDF OCR
+                  PDF OCR
                 </span>
-                </div>
+              </div>
             </Link>
 
             {/* PDF → IMG Button */}
             <Link to="/img-pdf" className="no-underline text-inherit ">
-                <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <button
-                    className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
-                    style={{ backgroundColor: "#0ba84a", borderColor: "#0ba84a" }}
+                  className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
+                  style={{ backgroundColor: "#0ba84a", borderColor: "#0ba84a" }}
                 >
-                    <span className="absolute inset-0 bg-green-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
-                    <span className="text-white transition-all duration-300 group-hover:text-green-100 relative z-10">
+                  <span className="absolute inset-0 bg-green-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
+                  <span className="text-white transition-all duration-300 group-hover:text-green-100 relative z-10">
                     <FaFileAlt
-                        size={26}
-                        className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:rotate-[-8deg] group-hover:translate-y-[-2px]"
+                      size={26}
+                      className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:rotate-[-8deg] group-hover:translate-y-[-2px]"
                     />
-                    </span>
-                    <span className="absolute inset-0 border-2 border-green-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
+                  </span>
+                  <span className="absolute inset-0 border-2 border-green-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
                 </button>
                 <span className="mt-2 text-xs sm:text-sm text-gray-700 group-hover:text-green-600 transition-colors duration-300">
-                    PDF → IMG
+                  PDF → IMG
                 </span>
-                </div>
+              </div>
             </Link>
 
             {/* IMG → PDF Button */}
             <Link to="/img-pdf" className="no-underline text-inherit ">
-                <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <button
-                    className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-md hover:scale-105 group"
-                    style={{ backgroundColor: "#ff6105", borderColor: "#ff6105" }}
+                  className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-md hover:scale-105 group"
+                  style={{ backgroundColor: "#ff6105", borderColor: "#ff6105" }}
                 >
-                    <span className="text-white transition-all duration-300 group-hover:text-yellow-100">
+                  <span className="text-white transition-all duration-300 group-hover:text-yellow-100">
                     <FaImage
-                        size={26}
-                        className="transition-all duration-500 group-hover:transform group-hover:rotate-12 group-hover:scale-125"
+                      size={26}
+                      className="transition-all duration-500 group-hover:transform group-hover:rotate-12 group-hover:scale-125"
                     />
-                    </span>
+                  </span>
                 </button>
                 <span className="mt-2 text-xs sm:text-sm text-gray-700">
-                    IMG → PDF
+                  IMG → PDF
                 </span>
-                </div>
+              </div>
             </Link>
 
             {/* Edit PDF Button */}
-            <Link to="/edit-pdf" className="no-underline text-inherit "> 
-                <div className="flex flex-col items-center">
+            <Link to="/edit-pdf" className="no-underline text-inherit ">
+              <div className="flex flex-col items-center">
                 <button
-                    className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
-                    style={{ backgroundColor: "#ff3b4b", borderColor: "#ff3b4b" }}
+                  className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
+                  style={{ backgroundColor: "#ff3b4b", borderColor: "#ff3b4b" }}
                 >
-                    <span className="absolute inset-0 bg-red-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
-                    <span className="text-white transition-all duration-300 group-hover:text-red-100 relative z-10">
+                  <span className="absolute inset-0 bg-red-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
+                  <span className="text-white transition-all duration-300 group-hover:text-red-100 relative z-10">
                     <FaEdit
-                        size={26}
-                        className="transition-all duration-500 group-hover:transform origin-bottom-right group-hover:scale-125 group-hover:translate-x-1 group-hover:translate-y-[-2px] group-hover:rotate-[-12deg]"
+                      size={26}
+                      className="transition-all duration-500 group-hover:transform origin-bottom-right group-hover:scale-125 group-hover:translate-x-1 group-hover:translate-y-[-2px] group-hover:rotate-[-12deg]"
                     />
-                    </span>
-                    <span className="absolute inset-0 border-2 border-red-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
-                    <span className="absolute h-[2px] w-0 bg-white bottom-[40%] left-[40%] opacity-0 group-hover:opacity-70 group-hover:w-[20%] transition-all duration-700 delay-100"></span>
+                  </span>
+                  <span className="absolute inset-0 border-2 border-red-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
+                  <span className="absolute h-[2px] w-0 bg-white bottom-[40%] left-[40%] opacity-0 group-hover:opacity-70 group-hover:w-[20%] transition-all duration-700 delay-100"></span>
                 </button>
                 <span className="mt-2 text-xs sm:text-sm text-gray-700 group-hover:text-red-600 transition-colors duration-300">
-                    Edit PDF
+                  Edit PDF
                 </span>
-                </div>
+              </div>
             </Link>
 
             {/* Secure PDF Button */}
-            <Link to="/secure-pdf" className="no-underline text-inherit "> 
-                <div className="flex flex-col items-center">
+            <Link to="/secure-pdf" className="no-underline text-inherit ">
+              <div className="flex flex-col items-center">
                 <button
-                    className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
-                    style={{ backgroundColor: "#4a6bff", borderColor: "#4a6bff" }}
+                  className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
+                  style={{ backgroundColor: "#4a6bff", borderColor: "#4a6bff" }}
                 >
-                    <span className="absolute inset-0 bg-blue-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
-                    <span className="text-white transition-all duration-300 group-hover:text-blue-100 relative z-10">
+                  <span className="absolute inset-0 bg-blue-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
+                  <span className="text-white transition-all duration-300 group-hover:text-blue-100 relative z-10">
                     <FaLock
-                        size={26}
-                        className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:translate-y-[-1px]"
+                      size={26}
+                      className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:translate-y-[-1px]"
                     />
-                    </span>
-                    <span className="absolute inset-0 border-2 border-blue-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
+                  </span>
+                  <span className="absolute inset-0 border-2 border-blue-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
                 </button>
                 <span className="mt-2 text-xs sm:text-sm text-gray-700 group-hover:text-blue-600 transition-colors duration-300">
-                    Secure PDF
+                  Secure PDF
                 </span>
-                </div>
+              </div>
             </Link>
 
             {/* Compress Button */}
-            <Link to="/compress-pdf" className="no-underline text-inherit "> 
-                <div className="flex flex-col items-center">
+            <Link to="/compress-pdf" className="no-underline text-inherit ">
+              <div className="flex flex-col items-center">
                 <button
-                    className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
-                    style={{ backgroundColor: "#8d46e7", borderColor: "#8d46e7" }}
+                  className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
+                  style={{ backgroundColor: "#8d46e7", borderColor: "#8d46e7" }}
                 >
-                    <span className="absolute inset-0 bg-purple-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
-                    <span className="text-white transition-all duration-300 group-hover:text-purple-100 relative z-10">
+                  <span className="absolute inset-0 bg-purple-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
+                  <span className="text-white transition-all duration-300 group-hover:text-purple-100 relative z-10">
                     <FaCompress
-                        size={26}
-                        className="transition-all duration-500 group-hover:transform group-hover:scale-110 group-hover:rotate-[15deg]"
+                      size={26}
+                      className="transition-all duration-500 group-hover:transform group-hover:scale-110 group-hover:rotate-[15deg]"
                     />
-                    </span>
-                    <span className="absolute inset-0 border-2 border-purple-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
+                  </span>
+                  <span className="absolute inset-0 border-2 border-purple-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
                 </button>
                 <span className="mt-2 text-xs sm:text-sm text-gray-700 group-hover:text-purple-600 transition-colors duration-300">
-                    Compress
+                  Compress
                 </span>
-                </div>
+              </div>
             </Link>
 
             {/* Sign PDF Button */}
-            <Link to="/sign-pdf" className="no-underline text-inherit "> 
-                <div className="flex flex-col items-center">
+            <Link to="/sign-pdf" className="no-underline text-inherit ">
+              <div className="flex flex-col items-center">
                 <button
-                    className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
-                    style={{ backgroundColor: "#08c1b8", borderColor: "#08c1b8" }}
+                  className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
+                  style={{ backgroundColor: "#08c1b8", borderColor: "#08c1b8" }}
                 >
-                    <span className="absolute inset-0 bg-teal-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
-                    <span className="text-white transition-all duration-300 group-hover:text-teal-100 relative z-10">
+                  <span className="absolute inset-0 bg-teal-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
+                  <span className="text-white transition-all duration-300 group-hover:text-teal-100 relative z-10">
                     <FaSignature
-                        size={26}
-                        className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:translate-x-1"
+                      size={26}
+                      className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:translate-x-1"
                     />
-                    </span>
-                    <span className="absolute inset-0 border-2 border-teal-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
+                  </span>
+                  <span className="absolute inset-0 border-2 border-teal-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
                 </button>
                 <span className="mt-2 text-xs sm:text-sm text-gray-700 group-hover:text-teal-600 transition-colors duration-300">
-                    Sign PDF
+                  Sign PDF
                 </span>
-                </div>
+              </div>
             </Link>
 
             {/* Convert Button */}
             <Link to="/convert-pdf" className="no-underline text-inherit ">
-                <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center">
                 <button
-                    className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
-                    style={{ backgroundColor: "#ff8c00", borderColor: "#ff8c00" }}
+                  className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
+                  style={{ backgroundColor: "#ff8c00", borderColor: "#ff8c00" }}
                 >
-                    <span className="absolute inset-0 bg-orange-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
-                    <span className="text-white transition-all duration-300 group-hover:text-orange-100 relative z-10">
+                  <span className="absolute inset-0 bg-orange-400 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
+                  <span className="text-white transition-all duration-300 group-hover:text-orange-100 relative z-10">
                     <FaFilePdf
-                        size={26}
-                        className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:rotate-[-8deg]"
+                      size={26}
+                      className="transition-all duration-500 group-hover:transform group-hover:scale-125 group-hover:rotate-[-8deg]"
                     />
-                    </span>
-                    <span className="absolute inset-0 border-2 border-orange-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
+                  </span>
+                  <span className="absolute inset-0 border-2 border-orange-300 opacity-0 group-hover:opacity-50 rounded-full group-hover:scale-110 transition-all duration-500"></span>
                 </button>
                 <span className="mt-2 text-xs sm:text-sm text-gray-700 group-hover:text-orange-600 transition-colors duration-300">
-                    Convert
+                  Convert
                 </span>
-                </div>
+              </div>
             </Link>
 
             {/* More Button - NOTE: CHECK HOW CANVA DOES IT */}
@@ -309,17 +309,17 @@ const HomePage = () => {
           {/* LINK INSTRUCTION: Replace "/ai-assistant" with route path */}
           <Link
             to="/ai-pdf"
-            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80"
+            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80 group"
           >
-            <SmallCard className="bg-white border-t-4 border-purple-500 shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px]">
+            <SmallCard className="bg-white border-t-4 border-purple-500 shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px] transition-all duration-300">
               <div className="flex flex-col items-center h-full p-4">
                 <div className="bg-purple-100 w-14 h-14 rounded-full flex items-center justify-center">
                   <FaRobot className="text-3xl text-purple-600" />
                 </div>
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3">
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3 group-hover:text-purple-600 transition-colors duration-300">
                   AI Assistant
                 </h3>
-                <div className="h-1 w-12 bg-purple-500 my-2"></div>
+                <div className="h-1 w-12 bg-purple-500 my-2 group-hover:w-16 transition-all duration-300"></div>
                 <p className="text-gray-600 text-center text-sm sm:text-base">
                   Smart document analysis powered by AI
                 </p>
@@ -342,17 +342,17 @@ const HomePage = () => {
           {/* Text Recognition Card */}
           <Link
             to="/ocr-pdf"
-            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80"
+            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80 group"
           >
-            <SmallCard className="bg-white border-t-4 border-blue-500 shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px]">
+            <SmallCard className="bg-white border-t-4 border-[#13A3B5] shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px] transition-all duration-300">
               <div className="flex flex-col items-center h-full p-4">
-                <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center">
+                <div className="bg-blue-100  w-14 h-14 rounded-full flex items-center justify-center">
                   <CiTextAlignCenter className="text-3xl text-blue-600" />
                 </div>
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3">
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3 group-hover:text-[#13A3B5] transition-colors duration-300">
                   OCR Technology
                 </h3>
-                <div className="h-1 w-12 bg-blue-500 my-2"></div>
+                <div className="h-1 w-12 bg-[#13A3B5] my-2 group-hover:w-16 transition-all duration-300"></div>
                 <p className="text-gray-600 text-center text-sm sm:text-base">
                   Extract text from images and scans
                 </p>
@@ -363,7 +363,7 @@ const HomePage = () => {
                   <Link
                     to="/ocr-pdf"
                     onClick={(e) => e.stopPropagation()}
-                    className="bg-blue-600 hover:bg-blue-700 text-white py-1.5 px-5 rounded-lg no-underline inline-block text-sm mt-5"
+                    className="bg-[#13A3B5] hover:bg-[#0f8b9a] text-white py-1.5 px-5 rounded-lg no-underline inline-block text-sm mt-5"
                   >
                     Extract Text
                   </Link>
@@ -372,20 +372,85 @@ const HomePage = () => {
             </SmallCard>
           </Link>
 
-          {/* Security Card */}
+          {/* PDF --> IMG Card*/}
           <Link
-            to="/secure-pdf"
-            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80"
+            to="/img-pdf"
+            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80 group"
           >
-            <SmallCard className="bg-white border-t-4 border-green-500 shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px]">
+            <SmallCard className="bg-white border-t-4 border-green-500 shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px] transition-all duration-300">
               <div className="flex flex-col items-center h-full p-4">
                 <div className="bg-green-100 w-14 h-14 rounded-full flex items-center justify-center">
-                  <FaLock className="text-3xl text-green-600" />
+                  <FaFileAlt className="text-3xl text-green-600" />
                 </div>
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3">
-                  Document Security
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3 group-hover:text-green-600 transition-colors duration-300">
+                  PDF Images
                 </h3>
-                <div className="h-1 w-12 bg-green-500 my-2"></div>
+                <div className="h-1 w-12 bg-green-500 my-2 group-hover:w-16 transition-all duration-300"></div>
+                <p className="text-gray-600 text-center text-sm sm:text-base">
+                  Convert PDF pages to image formats
+                </p>
+                <p className="text-gray-500 text-xs sm:text-sm text-center mt-1">
+                  Export PDF pages as JPG, PNG or TIFF files
+                </p>
+                <div className="mt-auto">
+                  <Link
+                    to="/img-pdf"
+                    onClick={(e) => e.stopPropagation()}
+                    className="bg-green-600 hover:bg-green-700 text-white py-1.5 px-5 rounded-lg no-underline inline-block text-sm mt-5"
+                  >
+                    Imagize Now
+                  </Link>
+                </div>
+              </div>
+            </SmallCard>
+          </Link>
+          {/* Edit PDF Card */}
+          <Link
+            to="/edit-pdf"
+            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80 group"
+          >
+            <SmallCard className="bg-white border-t-4 border-red-300 shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px] transition-all duration-300 group-hover:transform ">
+              <div className="flex flex-col items-center h-full p-4">
+                <div className="bg-red-100 w-14 h-14 rounded-full flex items-center justify-center transition-transform duration-300 ">
+                  <FaEdit className="text-3xl text-red-500 transition-transform duration-300  " />
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3 group-hover:text-red-500 transition-colors duration-300">
+                  Edit PDF
+                </h3>
+                <div className="h-1 w-12 bg-red-300 my-2 group-hover:w-16 transition-all duration-300"></div>
+                <p className="text-gray-600 text-center text-sm sm:text-base">
+                  Modify and customize your PDF documents
+                </p>
+                <p className="text-gray-500 text-xs sm:text-sm text-center mt-1">
+                  Add text, images, annotations, and more to your PDFs
+                </p>
+                <div className="mt-auto">
+                  <Link
+                    to="/edit-pdf"
+                    onClick={(e) => e.stopPropagation()}
+                    className="bg-red-400 hover:bg-red-500 text-white py-1.5 px-5 rounded-lg no-underline inline-block text-sm mt-5 transition-all duration-300 hover:shadow-md"
+                  >
+                    Edit Now
+                  </Link>
+                </div>
+              </div>
+            </SmallCard>
+          </Link>
+
+          {/* Secure PDF Card */}
+          <Link
+            to="/secure-pdf"
+            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80 group"
+          >
+            <SmallCard className="bg-white border-t-4 border-blue-300 shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px] transition-all duration-300 group-hover:transform ">
+              <div className="flex flex-col items-center h-full p-4">
+                <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center transition-transform duration-300 ">
+                  <FaLock className="text-3xl text-blue-500 transition-transform duration-300 " />
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3 group-hover:text-blue-500 transition-colors duration-300">
+                  Secure PDF
+                </h3>
+                <div className="h-1 w-12 bg-blue-300 my-2 group-hover:w-16 transition-all duration-300"></div>
                 <p className="text-gray-600 text-center text-sm sm:text-base">
                   Protect your sensitive documents
                 </p>
@@ -396,9 +461,108 @@ const HomePage = () => {
                   <Link
                     to="/secure-pdf"
                     onClick={(e) => e.stopPropagation()}
-                    className="bg-green-600 hover:bg-green-700 text-white py-1.5 px-5 rounded-lg no-underline inline-block text-sm mt-5"
+                    className="bg-blue-400 hover:bg-blue-500 text-white py-1.5 px-5 rounded-lg no-underline inline-block text-sm mt-5 transition-all duration-300 hover:shadow-md"
                   >
                     Secure Now
+                  </Link>
+                </div>
+              </div>
+            </SmallCard>
+          </Link>
+
+          {/* Compress PDF Card */}
+          <Link
+            to="/compress-pdf"
+            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80 group"
+          >
+            <SmallCard className="bg-white border-t-4 border-purple-400  shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px] transition-all duration-300 group-hover:transform ">
+              <div className="flex flex-col items-center h-full p-4">
+                <div className="bg-purple-200  w-14 h-14 rounded-full flex items-center justify-center transition-transform duration-300 ">
+                  <FaCompress className="text-3xl text-purple-400  transition-transform duration-300 " />
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3 group-hover:text-purple-600  transition-colors duration-300">
+                  Compress PDF
+                </h3>
+                <div className="h-1 w-12 bg-purple-400  my-2 group-hover:w-16 transition-all duration-300"></div>
+                <p className="text-gray-600 text-center text-sm sm:text-base">
+                  Reduce file size without losing quality
+                </p>
+                <p className="text-gray-500 text-xs sm:text-sm text-center mt-1">
+                  Optimize PDFs for easier sharing and storage
+                </p>
+                <div className="mt-auto">
+                  <Link
+                    to="/compress-pdf"
+                    onClick={(e) => e.stopPropagation()}
+                    className="bg-purple-500  hover:bg-purple-600  text-white py-1.5 px-5 rounded-lg no-underline inline-block text-sm mt-5 transition-all duration-300 hover:shadow-md"
+                  >
+                    Compress Now
+                  </Link>
+                </div>
+              </div>
+            </SmallCard>
+          </Link>
+          
+          {/* Sign PDF Card */}
+          <Link
+            to="/sign-pdf"
+            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80 group"
+          >
+            <SmallCard className="bg-white border-t-4 border-teal-300 shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px] transition-all duration-300 group-hover:transform">
+              <div className="flex flex-col items-center h-full p-4">
+                <div className="bg-teal-100 w-14 h-14 rounded-full flex items-center justify-center transition-transform duration-300">
+                  <FaSignature className="text-3xl text-teal-500 transition-transform duration-300" />
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3 group-hover:text-teal-500 transition-colors duration-300">
+                  Sign PDF
+                </h3>
+                <div className="h-1 w-12 bg-teal-300 my-2 group-hover:w-16 transition-all duration-300"></div>
+                <p className="text-gray-600 text-center text-sm sm:text-base">
+                  Add digital signatures to your documents
+                </p>
+                <p className="text-gray-500 text-xs sm:text-sm text-center mt-1">
+                  Legally sign PDFs and request signatures from others
+                </p>
+                <div className="mt-auto">
+                  <Link
+                    to="/sign-pdf"
+                    onClick={(e) => e.stopPropagation()}
+                    className="bg-teal-400 hover:bg-teal-500 text-white py-1.5 px-5 rounded-lg no-underline inline-block text-sm mt-5 transition-all duration-300 hover:shadow-md"
+                  >
+                    Sign Now
+                  </Link>
+                </div>
+              </div>
+            </SmallCard>
+          </Link>
+
+          {/* Convert PDF Card */}
+          <Link
+            to="/convert-pdf"
+            className="no-underline text-inherit w-full sm:w-[45%] md:w-72 lg:w-80 group"
+          >
+            <SmallCard className="bg-white border-t-4 border-orange-300 shadow-md hover:shadow-lg h-[300px] sm:h-[320px] md:h-[340px] transition-all duration-300 group-hover:transform">
+              <div className="flex flex-col items-center h-full p-4">
+                <div className="bg-orange-100 w-14 h-14 rounded-full flex items-center justify-center transition-transform duration-300">
+                  <FaFilePdf className="text-3xl text-orange-500 transition-transform duration-300" />
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-3 group-hover:text-orange-500 transition-colors duration-300">
+                  Convert PDF
+                </h3>
+                <div className="h-1 w-12 bg-orange-300 my-2 group-hover:w-16 transition-all duration-300"></div>
+                <p className="text-gray-600 text-center text-sm sm:text-base">
+                  Transform PDFs to other formats
+                </p>
+                <p className="text-gray-500 text-xs sm:text-sm text-center mt-1">
+                  Convert to Word, Excel, PowerPoint and more
+                </p>
+                <div className="mt-auto">
+                  <Link
+                    to="/convert-pdf"
+                    onClick={(e) => e.stopPropagation()}
+                    className="bg-orange-400 hover:bg-orange-500 text-white py-1.5 px-5 rounded-lg no-underline inline-block text-sm mt-5 transition-all duration-300 hover:shadow-md"
+                  >
+                    Convert Now
                   </Link>
                 </div>
               </div>
