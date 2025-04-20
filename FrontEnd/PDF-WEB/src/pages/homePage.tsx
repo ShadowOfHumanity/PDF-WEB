@@ -15,6 +15,7 @@ import {
 import SmallCard from "../components/smallCard";
 import { CiTextAlignCenter } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import { IoRocket } from "react-icons/io5";
 
 const Banner = () => {
   return (
@@ -52,10 +53,25 @@ const Banner = () => {
           with ease
         </p>
 
-        {/* THIS BUTTON DOES NOTHING YET*/}
-        <button className="bg-white text-gray-800 font-medium px-6 py-3 rounded-lg hover:bg-gray-100 hover:shadow-lg transition-all">
-          Get Started
-        </button>
+        {/*  Get Started Button lol */}
+        <div className="group inline-block">
+          <Link
+            to="/Subscription"
+            className="relative inline-block bg-white text-gray-800 font-medium px-6 py-3 rounded-lg hover:bg-gray-100 hover:shadow-lg transition-all overflow-hidden"
+          >
+            <div className="flex items-center justify-center">
+              <span className="transition-transform duration-300 group-hover:-translate-x-2">
+                Get Started
+              </span>
+              <span className="inline-block w-0  transition-all duration-300 group-hover:w-5">
+                <IoRocket
+                  className="ml-2 opacity-0 translate-y-1 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300"
+                  size={20}
+                />
+              </span>
+            </div>
+          </Link>
+        </div>
       </div>
 
       {/* Subtle grid pattern overlay */}
@@ -502,7 +518,7 @@ const HomePage = () => {
               </div>
             </SmallCard>
           </Link>
-          
+
           {/* Sign PDF Card */}
           <Link
             to="/sign-pdf"
