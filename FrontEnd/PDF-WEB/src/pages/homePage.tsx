@@ -289,7 +289,7 @@ const HomePage = () => {
             {/* More Button - NOTE: CHECK HOW CANVA DOES IT */}
             <div className="flex flex-col items-center">
               <button
-                className="w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
+                className="cursor-pointer w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-105 group relative overflow-hidden"
                 style={{ backgroundColor: "#5a6778", borderColor: "#5a6778" }}
               >
                 <span className="absolute inset-0 bg-gray-500 opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-full"></span>
