@@ -4,9 +4,10 @@ import Footer from "./components/footer";
 import LandingPage from "./pages/LandingPage";
 import HomePage from "./pages/HomePage";
 import SubscriptionPage from "./pages/SubscriptionPage";
+import ToolsOverviewPage from "./pages/ToolsOverviewPage";
 
 // Placeholder page components
-const ToolsOverviewPage = () => <div className="container mx-auto p-6">Tools Overview Page</div>;
+
 const HelpPage = () => <div className="container mx-auto p-6">Help Page</div>;
 
 const AiPdfPage = () => <div className="container mx-auto p-6">AI PDF Page</div>;
@@ -40,6 +41,7 @@ const App = () => {
             <Route path="/convert-pdf" element={<ConvertPdfPage />} /> 
             <Route path="/Help" element={<HelpPage />} />
             <Route path="/Subscription" element={<SubscriptionPage />} />
+            <Route path="/contact" element={<HelpPage />} />
           </Routes>
         </main>
         <Footer />
