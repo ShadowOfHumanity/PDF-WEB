@@ -29,3 +29,7 @@
     -- ADS + Free, can use all (if registered), with limits on AI and Conversions (1 daily)
     -- ADS + Standard, free for maltese, 4.99 monthly, Infinite access: OCR, Compressing, signing, conversions, 5 daily usage AI
     -- ADS + Pro, 9.99 monthly, unlimited all.
+
+# 100MB size limit
+
+# Help page, feedback form, fix. add correct email and support ticket system

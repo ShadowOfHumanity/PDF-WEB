@@ -5,10 +5,11 @@ import LandingPage from "./pages/LandingPage";
 import HomePage from "./pages/HomePage";
 import SubscriptionPage from "./pages/SubscriptionPage";
 import ToolsOverviewPage from "./pages/ToolsOverviewPage";
+import HelpPage from "./pages/HelpPage";
 
 // Placeholder page components
 
-const HelpPage = () => <div className="container mx-auto p-6">Help Page</div>;
+
 
 const AiPdfPage = () => <div className="container mx-auto p-6">AI PDF Page</div>;
 const OcrPdfPage = () => <div className="container mx-auto p-6">OCR PDF Page</div>;
