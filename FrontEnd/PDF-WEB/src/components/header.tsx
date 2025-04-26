@@ -20,7 +20,7 @@ const Header = () => {
         <MinimalisticLinks to="/Help" text="Help" />
         <MinimalisticLinks to="/Subscription" text="Subscription" />
         </div>
-        <BlackButton text="Sign in" className="cursor-pointer" onClick={() => {}} />
+        <BlackButton text="Sign in" className="cursor-pointer" to="/login" />
       </div>
     </header>
   )

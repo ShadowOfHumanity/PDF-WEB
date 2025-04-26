@@ -33,3 +33,4 @@
 # 100MB size limit
 
 # Help page, feedback form, fix. add correct email and support ticket system
+# Implement check session system on each page.

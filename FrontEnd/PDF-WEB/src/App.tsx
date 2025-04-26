@@ -6,11 +6,13 @@ import HomePage from "./pages/HomePage";
 import SubscriptionPage from "./pages/SubscriptionPage";
 import ToolsOverviewPage from "./pages/ToolsOverviewPage";
 import HelpPage from "./pages/HelpPage";
+import AuthForm from "./components/AuthForm";
 
 // Placeholder page components
 
 
 
+const LoginPage = () => <div className="container mx-auto p-6">Login Page <AuthForm/> </div>;
 const AiPdfPage = () => <div className="container mx-auto p-6">AI PDF Page</div>;
 const OcrPdfPage = () => <div className="container mx-auto p-6">OCR PDF Page</div>;
 const SecurePdfPage = () => <div className="container mx-auto p-6">Secure PDF Page</div>;
@@ -20,6 +22,7 @@ const CompressPdfPage = () => <div className="container mx-auto p-6">Compress PD
 const SignPdfPage = () => <div className="container mx-auto p-6">Sign PDF Page</div>;
 const ConvertPdfPage = () => <div className="container mx-auto p-6">Convert PDF Page</div>;
 
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -28,6 +31,7 @@ const App = () => {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={ <LandingPage />} />
+            <Route path="/login" element={<LoginPage />} />
             <Route path="/landingPage" element={<LandingPage />} />
             <Route path="/Home" element={<HomePage />} />
             <Route path="/Tools-Overview" element={<ToolsOverviewPage />} />
